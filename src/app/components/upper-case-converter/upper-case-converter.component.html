@@ -1,0 +1,10 @@
+<p>upper-case-converter works!</p>
+
+<input type="text" [(ngModel)]="myname" />
+<button (click)="convert({'message':myname})">Submit</button>
+
+<br/>
+<h1>
+{{result | json}}
+
+</h1>
